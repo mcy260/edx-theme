@@ -10,9 +10,6 @@ Starter theme for developing comprehensive theme on Open edX
 
 		$ sudo -u edxapp bash
 
-2. Create new folder on `/edx/app/edxapp/` called `themes`
-
-		$ mkdir /edx/app/edxapp/themes
 
 3. Move to that folder
 
@@ -20,9 +17,9 @@ Starter theme for developing comprehensive theme on Open edX
 
 4. Clone this repo
 
-		$ git clone https://github.com/zineschen/edx-theme.git iiiedu-theme
+		$ git clone https://github.com/mcy260/edx-theme.git my-theme
 
-5. Make some changes in `lms.env.json` located in `/edx/app/edxapp/`. Then change some variables to this:
+5. Make some changes in `l/edx/app/edxapp/lms.env.json' Then change some variables to this:
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
 		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/themes"],
@@ -35,7 +32,7 @@ Starter theme for developing comprehensive theme on Open edX
 
 7. Run the `update.sh` script. To apply the themes.
 
-		$ cd /edx/app/edxapp/themes/iiiedu-theme/
+		$ cd /edx/app/edxapp/edx-platform/themes/my-theme/
 		$ sh update.sh
 
 
