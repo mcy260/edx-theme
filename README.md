@@ -17,13 +17,13 @@ Starter theme for developing comprehensive theme on Open edX
 
 4. Clone this repo
 
-		$ git clone https://github.com/mcy260/edx-theme.git my-theme
+		$ git clone https://github.com/mcy260/edx-theme.git iiiedu-theme
 
 5. Make some changes in `l/edx/app/edxapp/lms.env.json' Then change some variables to this:
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
 		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/edx-platform/themes"],
-		DEFAULT_SITE_THEME: "my-theme",
+		DEFAULT_SITE_THEME: "iiiedu-theme",
 
 6. Back to ubuntu sudo users, and restart the edxapp to load new configuration.
 
