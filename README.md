@@ -26,7 +26,7 @@ Starter theme for developing comprehensive theme on Open edX
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
 		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/themes"],
-		DEFAULT_SITE_THEME: "iiiedu-theme",
+		DEFAULT_SITE_THEME: "my-theme",
 
 6. Back to ubuntu sudo users, and restart the edxapp to load new configuration.
 
